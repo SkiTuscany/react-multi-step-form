@@ -3,12 +3,12 @@ import {
   responsiveFontSizes,
   makeStyles
 } from '@material-ui/core/styles';
-import { cyan } from '@material-ui/core/colors';
+import { cyan, green, red } from '@material-ui/core/colors';
 
 let theme = createMuiTheme({
   palette: {
-    type: 'dark',
-    primary: cyan,
+    type: 'light',
+    primary: {main: '#ED6C02'},
     secondary: cyan
   }
 });
